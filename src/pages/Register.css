@@ -1,0 +1,107 @@
+.auth-container {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=1600")
+      center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.auth-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auth-header h2 {
+  color: #009a00;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.auth-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.form-group input {
+  padding: 12px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #009a00;
+  outline: none;
+}
+
+.btn-submit {
+  background-color: #e05206;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #c44705;
+}
+
+.auth-link {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.auth-link span {
+  color: #009a00;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.auth-link span:hover {
+  text-decoration: underline;
+}
+
+.erreur {
+  background-color: #ffe0e0;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+}

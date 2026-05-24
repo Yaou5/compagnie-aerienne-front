@@ -1,0 +1,182 @@
+.vol-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.vol-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.vol-card-header {
+  background: linear-gradient(135deg, #009a00, #007500);
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.vol-numero {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.vol-prix {
+  background-color: #e05206;
+  color: white;
+  padding: 6px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Trajet */
+.vol-trajet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+  background: white;
+}
+
+.vol-ville {
+  text-align: center;
+  flex: 1;
+}
+
+.ville-nom {
+  font-size: 20px;
+  font-weight: 900;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.ville-date {
+  font-size: 12px;
+  color: #888;
+  background-color: #f5f5f5;
+  padding: 4px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.vol-fleche {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #e05206;
+  font-size: 20px;
+  flex: 1;
+  justify-content: center;
+}
+
+.ligne {
+  height: 2px;
+  background-color: #e05206;
+  width: 35px;
+}
+
+/* Séparateur */
+.vol-separateur {
+  height: 1px;
+  background: linear-gradient(to right, #009a00, #e05206);
+  margin: 0 20px;
+  opacity: 0.3;
+}
+
+/* Places */
+.vol-places {
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.vol-places p {
+  background-color: #f0f9f0;
+  color: #009a00;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  border: 1px solid #009a00;
+}
+
+/* Réservation */
+.vol-reservation {
+  padding: 15px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fafafa;
+  border-top: 1px solid #eee;
+}
+
+.type-voyage {
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  background: white;
+  cursor: pointer;
+}
+
+.type-voyage:focus {
+  border-color: #009a00;
+  outline: none;
+}
+
+.vol-retour-input {
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  background: white;
+}
+
+.vol-retour-input:focus {
+  border-color: #009a00;
+  outline: none;
+}
+
+.btn-reserver {
+  background: linear-gradient(135deg, #e05206, #c44705);
+  color: white;
+  padding: 13px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: opacity 0.3s;
+  letter-spacing: 0.5px;
+}
+
+.btn-reserver:hover {
+  opacity: 0.9;
+}
+
+.erreur {
+  background-color: #ffe0e0;
+  color: #cc0000;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.succes {
+  background-color: #e0ffe0;
+  color: #009a00;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 13px;
+}

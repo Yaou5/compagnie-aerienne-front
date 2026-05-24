@@ -1,0 +1,213 @@
+.admin-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 30px 40px;
+}
+
+.admin-titre {
+  color: #009a00;
+  font-size: 28px;
+  margin-bottom: 25px;
+  border-left: 5px solid #e05206;
+  padding-left: 15px;
+}
+
+/* Onglets */
+.admin-onglets {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.onglet {
+  background-color: white;
+  color: #333;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #ddd !important;
+  transition: all 0.3s;
+}
+
+.onglet:hover {
+  border-color: #009a00 !important;
+  color: #009a00;
+}
+
+.onglet.actif {
+  background-color: #009a00;
+  color: white;
+  border-color: #009a00 !important;
+}
+
+/* Cards */
+.admin-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.admin-card h2 {
+  color: #009a00;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+/* Formulaire */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.form-row .form-group {
+  flex: 1;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-row label {
+  font-weight: bold;
+  color: #333;
+  font-size: 13px;
+}
+
+.form-row input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-row input:focus {
+  border-color: #009a00;
+  outline: none;
+}
+
+.btn-creer {
+  background-color: #009a00;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  align-self: flex-start;
+  transition: background 0.3s;
+}
+
+.btn-creer:hover {
+  background-color: #007500;
+}
+
+/* Table */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.admin-table th {
+  background-color: #009a00;
+  color: white;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.admin-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+}
+
+.admin-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.btn-supprimer {
+  background-color: #cc0000;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: background 0.3s;
+}
+
+.btn-supprimer:hover {
+  background-color: #aa0000;
+}
+
+/* Badges */
+.badge-admin {
+  background-color: #e05206;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.badge-user {
+  background-color: #009a00;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.erreur {
+  background-color: #ffe0e0;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.succes {
+  background-color: #e0ffe0;
+  color: #009a00;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-modifier {
+  background-color: #e05206;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-right: 8px;
+}
+
+.btn-modifier:hover {
+  background-color: #c44705;
+}
+
+.btn-annuler {
+  background-color: #666;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn-annuler:hover {
+  background-color: #444;
+}
